@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <!-- <link rel="stylesheet" href="styles/media.css"> -->
+    <link rel="icon" href="/img/icons/favicon.ico">
+    <title>Доставка вещей из-за рубежа</title>
+</head>
+<body>
+    <header class="bgc-white">
+        <section class="header-container mxw-1536px mrg-auto">
+            <div class="logo">
+                <img src="/img/other/logo.svg" alt="fromBoard Delivery"><span class="logo-text">FromBoard Delivery</span>
+            </div>
+            <article>
+                <ul>
+                    <li>Доставляем товары из заграницы в Россию</li>
+                    <li>Стоимость от 550 рублей за заказ</li>
+                    <li>1 $ = 93 ₽ | 1 € = 99 ₽ | 1 ¥ = 13 ₽</li>
+                </ul>
+                <div class="number-phone">
+                    <h1>+7 (999) 993-45-67</h1>
+                    <h2>Звонки по России бесплатны</h2>
+                </div>
+            </article>
+        </section>
+        <!-- / .header-container -->
+        <section class="header-nav mxw-1536px mrg-auto">
+            <nav class="nav">
+                <ul class="nav-bar">
+                    <li><a href="#">Калькулятор</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Гарантии</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <div class="number-phone">
+                        <h1>+7 (999) 993-45-67</h1><br>
+                        <h2>Звонки по России бесплатны</h2>
+                    </div>
+                </ul>
+            </nav>
+
+            <div class="block-burger">
+                <div class="burger">
+                    <span></span>
+                </div>
+            </div>
+            <button class="nav-btn">Оставить заявку</button>
+        </section>
+        <!-- / .header-nav -->
+    </header>
+    <section class="start-container mxw-1536px">
+        <section class="form-section">
+            <article class="form-info">
+                <h1 class="section-title">Без проблемная доставка купленных вещей из США, Европы и Азии<br>в Россию</h1>
+                <p class="section-page">Сэкономьте на покупках и наслаждайтесь мировыми брендами — наш сервис позволяет вам легко и удобно заказывать товары со всего мира и получать их в России</p>
+                <img class="form-img" src="/img/blocks/form-img.png" alt="box">
+            </article>
+            <!-- /.form-info -->
+            <article class="calculator bgc-white">
+                <form class="mrg-auto" action="#">
+                    <h1 class="form-title">Калькулятор доставки</h1>
+                    <p class="form-page">Посчитайте, сколько будет стоить перевозка покупки из зарубежа</p>
+                    <input class="name" type="text" placeholder="Имя">
+                    <section class="your-data">
+                        <article class="left-inputs">
+                            <input type="email" placeholder="Почта">
+                            <input type="number" placeholder="Общая площадь, м2">
+                            <input type="text" placeholder="Страна покупки">
+                            <input type="text" placeholder="Область доставки">
+                        </article>
+                        <article class="right-inputs">
+                            <input type="tel" placeholder="Телефон">
+                            <input type="number" placeholder="Вес, кг">
+                            <input type="text" placeholder="Город покупки">
+                            <input type="text" placeholder="Город доставки">
+                        </article>
+                    </section>
+                    <!-- /.your-data -->
+                    <button class="form-btn" type="submit">Заказать расчёт</button>
+                </form>
+                <!-- form -->
+            </article>
+            <!-- /.calculator -->
+        </section>
+        <!-- /.form-container -->
+    </section>
+    <script>
+        document.querySelector('.burger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav').classList.toggle('open');
+        })
+    </script>
+    <!-- script -->
+
+    <main class="advantage-container mxw-1536px mrg-auto">
+        <h1 class="advantage-title">Наши преимущества</h1>
+        <section class="advantage-section">
+            <article class="advantage-column">
+                <img class="icon-1" src="/img/icons/rastamojka_gruza.svg" alt="icon">
+                <article class="text-column">
+                    <h3 class="column-title">Растоможка груза</h3>
+                    <p class="column-page">Мы берём на себя все формальности и бумажную волокиту, связанную с растаможкой груза</p>
+                </article>
+                <!-- /.text-column -->
+            </article>
+            <!-- /.advantage-column-1 -->
+            <article class="advantage-column">
+                <img class="icon-1" src="/img/icons/package.svg" alt="icon">
+                <article class="text-column">
+                    <h3 class="column-title">Надёжная упаковка</h3>
+                    <p class="column-page">Все товары упаковываются нашими специалистами с особым вниманием к деталям, гарантируя, что они дойдут в безопасности и в отличном состоянии</p>
+                </article>
+                <!-- /.text-column -->
+            </article>
+            <!-- /.advantage-column-2 -->
+            <article class="advantage-column">
+                <img class="icon-1" src="/img/icons/delivery.svg" alt="icon">
+                <article class="text-column">
+                    <h3 class="column-title">Быстро и выгодно</h3>
+                    <p class="column-page">Мы предлагаем быструю и выгодную доставку, чтобы вы могли насладиться покупками как можно скорее.</p>
+                </article>
+                <!-- /.text-column -->
+            </article>
+            <!-- /.advantage-column-3 -->
+            <article class="advantage-column">
+                <img class="icon-1" src="/img/icons/best-support.svg" alt="icon">
+                <article class="text-column">
+                    <h3 class="column-title">Удобный сервис</h3>
+                    <p class="column-page">Стремимся сделать процесс доставки максимально удобным для вас, чтобы опыт остался приятным и беззаботным</p>
+                </article>
+                <!-- /.text-column -->
+            </article>
+            <!-- /.advantage-column-4 -->
+            <article class="advantage-column">
+                <img class="icon-1" src="/img/icons/clear-info.svg" alt="icon">
+                <article class="text-column">
+                    <h3 class="column-title">Прозрачность работы</h3>
+                    <p class="column-page">Мы предоставляем полный контроль над каждым этапом доставки, от момента заказа до момента прибытия заказа</p>
+                </article>
+                <!-- /.text-column -->
+            </article>
+            <!-- /.advantage-column-5 -->
+            <article class="advantage-column">
+                <img class="icon-1" src="/img/icons/garantee.svg" alt="icon">
+                <article class="text-column">
+                    <h3 class="column-title">Страхование груза</h3>
+                    <p class="column-page">Наше страхование обеспечивает полную защиту и покрытие почти все неприятные и неожиданные ситуации</p>
+                </article>
+                <!-- /.text-column -->
+            </article>
+            <!-- /.advantage-column-6 -->
+        </section>
+        <!-- /.advantage-container -->
+    </main>
+    <!-- /.main-container -->
+    <hr class="center-hr">
+    <section class="certificate-container mxw-1536px">
+        <h1 class="garantee-title">Гарантии качества</h1>
+        <p class="garantee-page mrg-auto">Наши гарантии качества включают в себя полный спектр документов, необходимых для ввоза и вывоза товаров, а также для успешного бизнеса на мировом рынке.<br>Мы предоставляем вам надёжность и уверенность</p>
+        <section class="certif-section">
+            <article class="certif-column">
+                <img src="/img/blocks/ru-certif.png" alt="ru-certificate">
+                <h4 class="certif-title">Свидетельство о регистрации в RU</h4>
+            </article>
+            <article class="certif-column">
+                <img src="/img/blocks/us-certif.png" alt="usa-certificate">
+                <h4 class="certif-title">Свидетельство о регистрации в USA</h4>
+            </article>
+            <article class="certif-column">
+                <img src="/img/blocks/cn-certif.png" alt="ru-certificate">
+                <h4 class="certif-title">Свидетельство о регистрации в China</h4>
+            </article>
+            <article class="certif-column">
+                <img src="/img/blocks/uk-certif.png" alt="ru-certificate">
+                <h4 class="certif-title">Свидетельство о регистрации в UK</h4>
+            </article>
+            <!-- /.certif-column -->
+        </section>
+        <!-- /.certif-section -->
+        <button type="submit" class="certif-btn">Показать больше документов</button>
+    </section>
+    <hr class="center-hr">
+    <!-- /.certificate-container -->
+    <section class="reviews-container mxw-1536px">
+        <h1 class="reviews-title">Отзывы</h1>
+        <section class="reviews-section">
+            <article class="review">
+                <h1 class="review-title">Я заказала последний iPhone из США через ваш сервис, и доставка прошла быстро и без каких‑либо проблем. Гарантии качества и надёжная упаковка сделали мой опыт покупки невероятно позитивным</h1>
+                <article class="review-name">
+                    <p class="review-page">Анна</p>
+                    <img src="/img/icons/Quotes.svg" alt="quote">
+                </article>
+                <!-- /.review-name -->
+            </article>
+            <!-- /.review -->
+            <article class="review">
+                <h1 class="review-title">Я уже несколько лет заказываю дизайнерскую одежду из Франции через ваш сервис, и он никогда меня не подводил. Важно иметь надёжную компанию, которая позаботится о вашем заказе и предоставит все необходимые документы для ввоза в Россию</h1>
+                <article class="review-name">
+                    <p class="review-page">Александр</p>
+                    <img src="/img/icons/Quotes.svg" alt="quote">
+                </article>
+                <!-- /.review-name -->
+            </article>
+            <!-- /.review -->
+            <article class="review">
+                <h1 class="review-title">Заказал шикарные часы из Швейцарии, и доставка была невероятно быстрой. Ваш сервис делает интернет-шоппинг более доступным и удобным</h1>
+                <article class="review-name">
+                    <p class="review-page">Игорь</p>
+                    <img src="/img/icons/Quotes.svg" alt="quote">
+                </article>
+                <!-- /.review-name -->
+            </article>
+            <!-- /.review -->
+            <article class="review">
+                <h1 class="review-title">Я заказал редкий антикварный предмет из Японии через ваш сервис, и остался впечатлен. Все пришло в отличном состоянии, и ваша гарантия качества действительно работает. Спасибо за ваше профессиональное обслуживание</h1>
+                <article class="review-name">
+                    <p class="review-page">Дмитрий</p>
+                    <img src="/img/icons/Quotes.svg" alt="quote">
+                </article>
+                <!-- /.review-name -->
+            </article>
+            <!-- /.review -->
+        </section>
+        <!-- /.reviews-section -->
+    </section>
+    <!-- /.reviews-container -->
+    <section class="questions-form mrg-auto mxw-1536px">
+        <section class="questions-container">
+            <section class="questions-section">
+                <h1 class="question-title">Остались вопросы?</h1>
+                    <article>
+                        <input type="text" placeholder="Имя">
+                        <input type="email" placeholder="Почта">
+                    </article>
+                    <article>
+                        <input type="tel" placeholder="Телефон">
+                        <input type="text" placeholder="Тема вопроса">
+                    </article>
+                    <input class="message" type="text" placeholder="Сообщение...">
+                    <button type="submit" class="send-form-btn">Оставить заявку</button>
+                </section>
+            </section>
+            <!-- /.form-section -->
+        </section>
+        <!-- /.form-container -->
+    </section>
+    <!-- /.footer-form -->
+    <footer class="footer-container mrg-auto">
+        <section class="footer-section d-flex mrg-auto mxw-1536px">
+            <article class="logo">
+                <img src="/img/other/logo.svg" alt="footer-logo">
+                <h1 class="footer-title">FromBoard Delivery</h1>
+            </article>
+            <nav class="nav">
+                <li><a href="#">Калькулятор</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Гарантии</a></li>
+                <li><a href="#">Отзывы</a></li>
+            </nav>
+            <div class="number-phone">
+                <h1>+7 (999) 993-45-67</h1><br>
+                <h2>Звонки по России бесплатны</h2>
+            </div>
+        </section>
+        <section class="footer-section-2 mrg-auto mxw-1536px">
+            <span class="copyright">2023 © Ни одно право не защищено, копируйте сколько влезет</span><br>
+            <div class="footer-content">
+                <p class="disclamer">НЕ ЯВЛЯЕТСЯ ПУБЛИЧНОЙ ОФЕРТОЙ. Просим обратить внимание на то, что цены носят информационный и ознакомительный характер, а значит ни в какой мере не являются публичной офертой, которая определена в ст. 437 ГК РФ. Вся информация на сайте может содержать неточности, орфографические и иные ошибки, она не является полной, окончательно и исчерпывающей</p><br>
+                <p class="developer">Вёрсткой странички занимался<br>iT Nomad | Даудов Рахьим</p>
+            </div>
+            <!-- /.footer-content -->
+        </section>
+        <!-- /.footer-section-2 -->
+    </footer>
+    <!-- /.footer-container -->
+</body>
+</html>
